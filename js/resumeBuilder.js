@@ -116,7 +116,7 @@ education.display = function() {
         $(".education-entry:last").append(formattedOnlineURL);
     }
 
-}
+};
 education.display();
 
 var work = {
@@ -151,9 +151,9 @@ work.display = function() {
         var formattedDescription = HTMLworkDescription.replace("%data%", work.jobs[i].description);
         $(".work-entry:last").append(formattedDescription);
     }
-}
+};
 
-work.display()
+work.display();
 
 var projects = {
     "projects": [{
@@ -191,7 +191,7 @@ projects.display = function() {
             }
         }
     }
-}
+};
 
 projects.display();
 
